@@ -1,9 +1,9 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Perfil from '../components/Perfil.astro'
+import Perfil from '../components/Perfil.jsx'
 
 ---
 
 <Layout>
-  <Perfil/>
+  <Perfil client:only/>
 </Layout>
