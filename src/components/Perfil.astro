@@ -1,34 +1,40 @@
 ---
-/* 
-import {PowerGlitch} from "powerglitch"
 
-PowerGlitch.glitch(".imgGlitch")
-*/
-
-const asciiName = `
-__________                     __    ____________ _________________ 
-\\____    /____  _____    ____ |  | _/_   \\_____  \\\\_____  \\______  \\
-  /     /\\__  \\ \\__  \\ _/ ___\\|  |/ /|   | _(__  <  _(__  <   /    /
- /     /_ / __ \\_/ __ \\\\  \\___|    < |   |/       \\/       \\ /    / 
-/_______ (____  (____  /\\___  >__|_ \\|___/______  /______  //____/  
-        \\/    \\/     \\/     \\/     \\/           \\/       \\/         
-`;
 ---
 
-<div class="flex flex-col items-center justify-center mt-8 space-y-6">
-  <img
-    src="/portifoliophoto.jpg"
-    alt="Zaack"
-    class="w-56 h-56 rounded-full border-2 imgGlitch"
-  />
-  <pre
-    class="text-xs leading-none text-green-400 text-center
-    text-[9px] sm:text-xs md:text-sm lg:text-base whitespace-pre-wrap glitch"
+<div class="flex flex-col">
+  <div
+    class="flex items-center justify-center mt-5 flex-col gap-2 md:flex-row md:gap-[220px] s"
   >
-    {asciiName}
-  </pre>
-  <a href="/about" class="text-3xl text-blue-700 hover:text-blue-900 underline textGlitch">本物のハッカー</a>
-  <img src="/612d03a5fe2fdd00041d6f56.png" alt="" class="w-[400px]">
+    <h1 class="text-2xl textGlitch text-blue-500 font-semibold">Zaack1337</h1>
+
+    <img
+      src="/photoIndex.jpg"
+      alt=""
+      class="w-[150px] h-[150px] rounded-full border-2 imgGlitch"
+    />
+  </div>
+  <div class="flex items-center justify-center mt-6 flex-col gap-3.5 ml-1.5">
+    <div class="flex gap-1 flex-col">
+      <h1 class="text-xl md:text-2xl text-blue-500 font-semibold">Web Hacker</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore illum <br
+        />
+        atque et a dignissimos minus hic reiciendis, quia debitis sit. Odit <br
+        />
+        explicabo facilis sint aperiam ducimus suscipit aut nemo quos? <br />
+      </p>
+    </div>
+    <div class="flex gap-1 flex-col">
+      <h1 class="text-xl md:text-2xl text-blue-500 font-semibold">Test</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel <br>
+        laudantium aperiam asperiores perferendis. Iure deserunt quae, facilis <br>
+        illo sit ratione totam culpa aperiam neque sed! Culpa nostrum sequi <br>
+        doloremque.
+      </p>
+    </div>
+  </div>
 </div>
 
 <script src="../utils/imgGlitch.ts"></script>
