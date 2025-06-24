@@ -11,7 +11,11 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.1.10",
     "astro": "^5.10.0",
+    "astro-icon": "^1.1.5",
     "powerglitch": "^2.4.0",
     "tailwindcss": "^4.1.10"
+  },
+  "devDependencies": {
+    "@iconify-json/mdi": "^1.2.3"
   }
 }
