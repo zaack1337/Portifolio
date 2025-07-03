@@ -1,0 +1,21 @@
+---
+import Layout from "../layouts/404Layout.astro";
+---
+
+<Layout>
+  <div class="flex flex-col gap-3 mt-3.5">
+    <div class="flex flex-col justify-center items-center">
+      <h1 class="text-3xl">404</h1>
+      <img src="/404Photo.jpg" alt="" class="w-[400px] rounded-full border-" />
+      <h1 class="md:text-2xl">Essa Pagina não existe</h1>
+    </div>
+    <div class="flex flex-col md:flex-row justify-between text-[20px] mt-3.5 gap-5">
+      <button class="bg-zinc-700 p-3 rounded-2xl hover:bg-zinc-800 transition-">
+        <a href="/" class="">Home Page</a>
+      </button>
+      <button class="bg-zinc-700 p-3 rounded-2xl hover:bg-zinc-800">
+        <a href="">Blog Page</a>
+      </button>
+    </div>
+  </div>
+</Layout>
