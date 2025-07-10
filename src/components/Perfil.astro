@@ -1,5 +1,5 @@
 ---
-
+import { Icon } from "astro-icon/components";
 ---
 
 <div class="flex flex-col">
@@ -15,51 +15,55 @@
         <a href="https://github.com/zaack1337" target="_blank"
           ><img src="/github.svg" alt="" class="w-8 h-8" /></a
         >
+        <a
+          href="https://open.spotify.com/playlist/7nW7Q44nHEXniVX3igkRtr?si=76b4df29d3624c89"
+          ><Icon name="mdi:spotify" class="w-8 h-8" />
+        </a>
       </ul>
-    </div>
 
-    <img
-      src="/photoSobre.jpg"
-      alt=""
-      class="w-[140px] h-[140px] rounded-full border-2 imgGlitch"
-    />
-  </div>
-  <div class="flex items-center justify-center mt-6 flex-col gap-3.5">
-    <div class="flex gap-1 flex-col">
-      <h1 class="text-xl md:text-2xl text-red-800 font-semibold">
-        Web Hacker
-      </h1>
-      <p>
-        I am a webhacker because I like to find flaws and vulnerabilities in web
-        systems. Every flaw is a learning opportunity. For me, hacking is
-        learning, testing and evolving.
-      </p>
+      <img
+        src="/photoSobre.jpg"
+        alt=""
+        class="w-[140px] h-[140px] rounded-full border-2 imgGlitch"
+      />
     </div>
-    <div class="flex gap-1 flex-col">
-      <h1 class="text-xl md:text-2xl text-red-800 font-semibold">About</h1>
-      <p>
-        I’m someone driven by curiosity, logic, and a deep need to understand
-        how things truly work. My journey is rooted in constant learning,
-        exploring security, complex systems, and ideas that challenge the way we
-        think. I’m not just interested in using tools — I want to know what
-        makes them tick. I believe in free knowledge, decentralization, and
-        digital autonomy. For me, learning isn’t a task — it’s a necessity. Oh,
-        and yes — I eat SUCRILHOS and drink TODDY.
-      </p>
+    <div class="flex items-center justify-center mt-6 flex-col gap-3.5">
+      <div class="flex gap-1 flex-col">
+        <h1 class="text-xl md:text-2xl text-red-800 font-semibold">
+          Web Hacker
+        </h1>
+        <p>
+          I am a webhacker because I like to find flaws and vulnerabilities in
+          web systems. Every flaw is a learning opportunity. For me, hacking is
+          learning, testing and evolving.
+        </p>
+      </div>
+      <div class="flex gap-1 flex-col">
+        <h1 class="text-xl md:text-2xl text-red-800 font-semibold">About</h1>
+        <p>
+          I’m someone driven by curiosity, logic, and a deep need to understand
+          how things truly work. My journey is rooted in constant learning,
+          exploring security, complex systems, and ideas that challenge the way
+          we think. I’m not just interested in using tools — I want to know what
+          makes them tick. I believe in free knowledge, decentralization, and
+          digital autonomy. For me, learning isn’t a task — it’s a necessity.
+          Oh, and yes — I eat SUCRILHOS and drink TODDY.
+        </p>
+      </div>
+    </div>
+    <div class="w-full h-[4px] rounded-4xl bg-zinc-700 mt-5"></div>
+    <div class="mt-5">
+      <iframe
+        style="border-radius:12px"
+        src="https://open.spotify.com/embed/track/61mWefnWQOLf90gepjOCb3?utm_source=generator"
+        width="100%"
+        height="152"
+        allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"></iframe>
     </div>
   </div>
-  <div class="w-full h-[4px] rounded-4xl bg-zinc-700 mt-5"></div>
-  <div class="mt-5">
-    <iframe
-      style="border-radius:12px"
-      src="https://open.spotify.com/embed/track/61mWefnWQOLf90gepjOCb3?utm_source=generator"
-      width="100%"
-      height="152"
-      allowfullscreen=""
-      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-      loading="lazy"></iframe>
-  </div>
+
+  <script src="../utils/imgGlitch.ts"></script>
+  <script src="../utils/textGlitch.ts"></script>
 </div>
-
-<script src="../utils/imgGlitch.ts"></script>
-<script src="../utils/textGlitch.ts"></script>
